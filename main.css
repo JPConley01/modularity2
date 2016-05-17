@@ -1,0 +1,196 @@
+/* ADD YOUR STYLES HERE */
+
+/*horizontal padding*/
+
+.row {
+    border:4px hidden;
+    height: 160px;
+    width: 700px;
+    text-align:center;
+    position: relative;
+   
+}
+
+.square {
+    position:relative;
+    padding-left: 20px;
+    float: left;
+    padding-right: 20px;
+}
+
+/*horizontal padding 2*/
+
+.text {
+    text-align: center;
+    position: relative;
+    height: 160px;
+    width: 100px;
+    vertical-align: middle;
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*vertical padding*/
+
+.parent {
+    position: relative;
+}
+.child {
+    top: 50%;
+    height: 50px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+
+/*horizontal list*/
+
+ul > li {
+    display: inline;
+    padding: 0;
+}
+
+
+
+/*different sized buttons*/
+
+.large {
+    background-color: #ED828A;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    line-height: 2.5em;
+    padding: 0 2em;
+    display: inline-block;
+   
+}
+
+.medium {
+    background-color: #ED828A;
+    text-decoration: none;
+    color: white;
+    line-height: 1.75em;
+    padding: 0 1.5em;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+.small {
+    background-color: #ED828A;
+    text-decoration: none;
+    color: white;
+    line-height: 1em;
+    padding: 0 .6em;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+/*Navigation Menu*/
+
+
+
+
+
+ul .home {
+    text-decoration: none;
+    background: #ED828A;
+    display: inline;
+    line-height: 1.75em;
+    padding: 0 1.5em;
+    float: left;
+    color: white;
+    
+}
+
+.connect ul li:first-child .home {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.connect ul li:last-child .home {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.home:hover, .home:focus {
+    background: #356094;
+    border: solid 1px #2A4E77;
+    text-decoration: none;
+}
+
+/*pagination*/
+
+.pagination {
+    display: inline-block;
+    height: 50px;
+    margin: 0;
+ 
+}
+
+ol.pagination li {
+    display: inline;
+}
+
+ol.pagination li a {
+    color: #F4A18B;
+    padding: 8px 16px;
+    text-decoration: none;
+    height: 30px;
+    border-bottom: 2px solid #F4A18B;
+    
+    
+}
+
+ol.pagination li .active {
+    height: 30px;
+    background-color: #F4A18B;
+    color: white;
+    border-bottom: 2px solid black;
+    
+}
+.pagination .active{
+    background-color: #ddd;
+    height: 50px;
+    border-bottom: 2px solid #ddd;
+}
+
+/*Comment stream*/
+
+.media_cp {
+  overflow: hidden;
+  clear: right;
+ 
+}
+
+.media_img {
+  margin-right: 1em;
+  margin-bottom: 1em;
+  float: left;
+  overflow: hidden;
+}
+
+/*tabbed content*/
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+li {
+    display: inline;
+    border: solid;
+    border-width: 1px 1px 0 1px;
+    
+}
+
+li a {
+    padding: 0 10px;
+}
+
+#content {
+    border: 1px solid;
+}
