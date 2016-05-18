@@ -173,19 +173,21 @@ ol.pagination li .active {
 
 /*tabbed content*/
 
+
 .tab .tabs {
     list-style: none;
     padding: 0;
     margin: 0;
-    
+    margin-left: 10px;
 }
-
 
 .tab .stuff {
     display: inline;
     border: solid;
+    border-color: #a7aadf;
     border-width: 1px 1px 0 1px;
     margin: 0 5px 0 0;
+    padding: 0 15px;
     
 }
 
@@ -193,10 +195,17 @@ ol.pagination li .active {
     padding: 0 10px;
 }
 
+.tab .stuff.active {
+    border-bottom: 1px solid white;
+    margin-bottom: -1px;
+}
+
 #content {
-    border: 1px solid;
+    border: 1px solid #a7aadf;
+    border-radius: 6px;
     clear: both;
     text-decoration: none;
+    padding: 10px 15px;
 }
 
 #selected {
@@ -210,5 +219,21 @@ ol.pagination li .active {
     border: 1px solid;
     border-bottom-width: 0;
     margin: 0 5px 0 0;
-    text-decoration: none;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    
+}
+
+.deco {
+   text-decoration: none;
+   
+}
+
+.stuff1 {
+    float: left;
+    border: 1px solid;
+    border-bottom-width: 0;
+    margin: 0 5px 0 0;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
 }
