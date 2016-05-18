@@ -173,24 +173,42 @@ ol.pagination li .active {
 
 /*tabbed content*/
 
-ul {
+.tab .tabs {
     list-style: none;
     padding: 0;
     margin: 0;
-
-}
-
-li {
-    display: inline;
-    border: solid;
-    border-width: 1px 1px 0 1px;
     
 }
 
-li a {
+
+.tab .stuff {
+    display: inline;
+    border: solid;
+    border-width: 1px 1px 0 1px;
+    margin: 0 5px 0 0;
+    
+}
+
+.tab .stuff a {
     padding: 0 10px;
 }
 
 #content {
     border: 1px solid;
+    clear: both;
+    text-decoration: none;
+}
+
+#selected {
+    padding-bottom: 1px; 
+    background: white;
+    top: 1px;
+}
+
+.stuff {
+    float: left;
+    border: 1px solid;
+    border-bottom-width: 0;
+    margin: 0 5px 0 0;
+    text-decoration: none;
 }
